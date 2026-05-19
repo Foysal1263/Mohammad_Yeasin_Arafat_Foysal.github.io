@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Yeasin Arafat | Portfolio</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        header { background: #1a1a2e; color: #fff; padding: 3rem 2rem; text-align: center; }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #00fff0; }
+        header p { font-size: 1.1rem; color: #bbb; }
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; }
+        section { background: #fff; padding: 2rem; margin-bottom: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h2 { color: #1a1a2e; border-bottom: 2px solid #00fff0; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
+        .skills-badge { display: inline-block; background: #e1f5fe; color: #0288d1; padding: 0.5rem 1rem; margin: 0.3rem; border-radius: 20px; font-weight: bold; font-size: 0.9rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+        .card { background: #fafafa; border: 1px solid #ddd; border-radius: 6px; overflow: hidden; transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; justify-content: space-between; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0,0,0,0.15); }
+        .card img { width: 100%; height: 200px; object-fit: cover; border-bottom: 1px solid #ddd; background-color: #eaeaea; }
+        .card-content { padding: 1.5rem; flex-grow: 1; }
+        .card-content h3 { margin-bottom: 0.5rem; color: #1a1a2e; font-size: 1.25rem; }
+        .card-content p { color: #666; font-size: 0.95rem; }
+        footer { text-align: center; padding: 3rem 2rem; color: #777; background: #1a1a2e; color: #fff; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mohammad Yeasin Arafat</h1>
+        <p>Programmer & Data Analyst | Python • SQL • NoSQL • Web Applications</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a programmer and data analyst based in Bangladesh with a strong passion for technology, software development, and database architecture. I specialize in building optimized relational data structures, backend logic in Python, and turning raw requirements into elegant digital systems.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <span class="skills-badge">Python</span>
+            <span class="skills-badge">SQL (MySQL Workbench)</span>
+            <span class="skills-badge">MongoDB / NoSQL</span>
+            <span class="skills-badge">Relational Database Design</span>
+            <span class="skills-badge">C Programming</span>
+            <span class="skills-badge">HTML & CSS</span>
+            <span class="skills-badge">Graphic Design & Brand Identity</span>
+        </section>
+
+        <section id="projects">
+            <h2>My Featured Projects</h2>
+            <div class="grid">
+                
+                <div class="card">
+                    <img src="images/SQL_progect(Student_management_system).jpg" alt="Student Management System">
+                    <div class="card-content">
+                        <h3>Student Management Database</h3>
+                        <p>Designed a relational database schema mapping departments, courses, student profiles, and multi-table enrollment metrics using strict foreign keys.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/SQL(progect-01).jpg" alt="Relational DB Architecture">
+                    <div class="card-content">
+                        <h3>Building & Supplier DB System</h3>
+                        <p>A relational structure parsing building, flat, item inventory, and supplier components with optimized transaction parameters.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/Matchine Learning.png" alt="Machine Learning Metrics">
+                    <div class="card-content">
+                        <h3>Statistical Data Analysis</h3>
+                        <p>Leveraging Python notebooks to plot evaluation metrics like Confusion Matrices, testing true vs predicted target label accuracy distributions.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/mongoDB.png" alt="MongoDB Scripting">
+                    <div class="card-content">
+                        <h3>NoSQL Database Configurations</h3>
+                        <p>Writing document collection parameters and data insertion methods using structured JSON arrays to manage highly flexible datasets.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/Python.png" alt="Python Application Development">
+                    <div class="card-content">
+                        <h3>Python Core Logic Modules</h3>
+                        <p>Building functional conditional modules, dynamic calculations, user interaction input scripts, and programmatic evaluation loops.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/Some_graphic_desgine_progects.jpg" alt="Graphic Design Portfolio">
+                    <div class="card-content">
+                        <h3>Branding & Identity Layouts</h3>
+                        <p>Developing corporate assets, custom font layouts, realistic 3D mockups, and client presentation structures.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2026 Mohammad Yeasin Arafat. All Rights Reserved. Built with HTML & CSS.</p>
+    </footer>
+
+</body>
+</html>
